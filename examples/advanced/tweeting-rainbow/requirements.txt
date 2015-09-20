@@ -1,0 +1,4 @@
+requests=2.2.1
+oauthlib=0.6.3
+python-twitter=2.0
+APScheduler=3.0.0
