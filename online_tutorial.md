@@ -2,6 +2,8 @@
 
 We will be primarily working on Particle Photons, which are cheap, WiFi-enabled microcontrollers. To work online, ask one of our hackroom volunteers or organizers for access to a photon (or go to the hardware lab?).
 
+![](https://docs.particle.io/assets/images/photon-new.jpg)
+
 Working with photons is super painless with Particle's web IDE. [Sign up for an account](https://build.particle.io/signup), then add a new device. Enter the ID of the photon you'd like to claim (written on photon), then come over to the Hackroom guru and swap your ID for access. Afterwards, you'll be able to update device code directly over WiFi!
 
 ## Developing

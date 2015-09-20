@@ -2,6 +2,8 @@
 
 We will be primarily working on Particle Photons, which are cheap, WiFi-enabled microcontrollers.
 
+![](https://docs.particle.io/assets/images/photon-new.jpg)
+
 Although each photon is owned by HackTX and protected by authentication, we can use a few command-line tools to upload your programs locally over USB.
 
 First, make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [nodejs](https://nodejs.org/en/) installed, and clone this repository.
