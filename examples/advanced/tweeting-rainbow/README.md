@@ -11,10 +11,10 @@ Live-streaming tweets on an LCD display! Wwwooowwww
 
 ## Wiring
 
-Photon pin D0 to LCD SDA
-Photon pin D1 to LCD SCL
-Connect GND to GND
-Connect Photon VIN to LCD VCC
+* Photon pin D0 to LCD SDA
+* Photon pin D1 to LCD SCL
+* Connect GND to GND
+* Connect Photon VIN to LCD VCC
 
 ## Running
 
