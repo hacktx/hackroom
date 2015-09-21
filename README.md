@@ -1,11 +1,9 @@
 The Hackroom
 =============
 
-Located on the third floor in Balcony Room A, The Hackroom is a room for chilling and discovery -- a place to get away from all the hubba and play around with something cool. This is a space to relax, experiment with hardware, and enjoy the balcony views.
+Located on the third floor in Balcony Room A (3.106), The Hackroom is a room for chilling and discovery -- a place to get away from all the hubba and play around with something cool. This is a space to relax, experiment with hardware, and enjoy the balcony views.
 
 [![](http://i.imgur.com/TxMMAhF.jpg)](https://www.flickr.com/photos/c3o/930797842/in/photolist-2qfzLE-acgzK-7UBjsV-UknNV-8SpfeF-fr47yN-abDj1y-acep8-7oZvmH-acg2F-ace67-ccaWUA-5e78mm-5DTx4C-5DPf7e-BFCdx-4S93hn-PokXw-5tJ62m-bzXa1L-4AAeGE-a6RyF-dfCso-fr44of-aDUQ44-mKDpN-3ohjyz-puGzL-fr462j-cXwzcN-bu1LPc-bER8Z5-acehj-abDj91-aceb3-n2idW-e7cMfz-r4vShY-4cZYPX-aceei-wGeTh3-rGee8t-s8z9tH-acenH-8VWeZv-a6VgMh-3riCMq-m9KXKM-mxYdw-pb1Hf8)
-
-Like this, but less spooky.
 
 ## Hacking and Modifying
 
