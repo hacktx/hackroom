@@ -9,7 +9,7 @@ Located on the third floor in Balcony Room A (3.106), The Hackroom is a room for
 
 All of the hardware in the hackroom is open for modification, from the showcase projects on the table to the LEDs lining the walls. Keep reading to learn how to take everything apart and put 'em back together again.
 
-### Venue Lighting System
+### [Venue Lighting System](https://github.com/hacktx/particle-power)
 
 Within the HackTX slack, the #ledparty channel allows attendees to vote on and change venue lighting within the Blackbox and Hackroom. If you have an idea for a new animation, pattern, or color that you'd like to see, checkout the code at [particle-power/firmware](https://github.com/hacktx/particle-power/blob/master/firmware/led-show.ino) and add a new function. You can test your code on the smaller LED strips in the hackroom. Once you're set, open a pull request, and we'll add your lighting function to the vote system.
 
@@ -23,7 +23,7 @@ Come to the hackroom, learn to make one, and take it out into the wild.
 
 ![](http://cdn.instructables.com/FV0/0U50/8ZPEP27TMES/FV00U508ZPEP27TMES.LARGE.jpg)
 
-### jambot
+### [jambot](examples/intermediate/jambot)
 
 Our own lil robot friend.
 
@@ -41,9 +41,9 @@ Throughout the venue, we have Estimote iBeacons setup and ready for your use. Mo
 
 ![](http://i.sozcu.com.tr/wp-content/uploads/2014/08/etiket-670.jpg)
 
-### Illumaphone
+### [Illumaphone](examples/advanced/illumaphone)
 
-[A theremin using light. 'nuff said.](http://www.instructables.com/id/Illumaphone-Light-based-Electronic-Musical-Instrum/)
+A theremin using light. 'nuff said. Check out the [source tutorial](http://www.instructables.com/id/Illumaphone-Light-based-Electronic-Musical-Instrum/) for videos.
 
 ### Particle IoT Photon Microcontrollers
 
