@@ -13,27 +13,37 @@ All of the hardware in the hackroom is open for modification, from the showcase 
 
 Within the HackTX slack, the #ledparty channel allows attendees to vote on and change venue lighting within the Blackbox and Hackroom. If you have an idea for a new animation, pattern, or color that you'd like to see, checkout the code at [particle-power/firmware](https://github.com/hacktx/particle-power/blob/master/firmware/led-show.ino) and add a new function. You can test your code on the smaller LED strips in the hackroom. Once you're set, open a pull request, and we'll add your lighting function to the vote system.
 
+![](http://www.insomnialighting.com/catalog/images/$(KGrHqRHJFMFCg668hfqBQ)-uNtT9g~~60_57.jpg)
+
 ### LED Throwies
 
-Tiny, portable, connectable LED buddies. See the above picture.
+Tiny, portable, connectable LED buddies.
 
- Come to the hackroom, learn to make one, and take it out into the wild.
+Come to the hackroom, learn to make one, and take it out into the wild.
 
-### batbuns
+![](http://cdn.instructables.com/FV0/0U50/8ZPEP27TMES/FV00U508ZPEP27TMES.LARGE.jpg)
+
+### jambot
 
 Our own lil robot friend.
 
-### Illumaphone
+![](http://i.imgur.com/XgU5wZo.jpg)
 
-[A theremin using light. 'nuff said.](http://www.instructables.com/id/Illumaphone-Light-based-Electronic-Musical-Instrum/)
+### 3D Printers
+
+Yeah, we have 3D printers. [SketchUp](http://www.sketchup.com/) is a great, free tool for making models. Experimentation encouraged.
+
+![](http://www.empdesigns.co.uk/wp-content/gallery/prototype-gallery/3d-printing-model-making_0.jpg)
 
 ### Estimote iBeacons
 
 Throughout the venue, we have Estimote iBeacons setup and ready for your use. More on that later.
 
-### 3D Printers
+![](http://i.sozcu.com.tr/wp-content/uploads/2014/08/etiket-670.jpg)
 
-Yeah, we have 3D printers. [SketchUp](http://www.sketchup.com/) is a great, free tool for making models. Experimentation encouraged.
+### Illumaphone
+
+[A theremin using light. 'nuff said.](http://www.instructables.com/id/Illumaphone-Light-based-Electronic-Musical-Instrum/)
 
 ### Particle IoT Photon Microcontrollers
 
@@ -50,7 +60,7 @@ Many of these projects use Photons: small wifi-enabled microcontrollers. We have
 * transistors
 * resistors
 * diodes
-* 2 continuous-rotation motors
+* continuous-rotation motors
 * Jumper wires
 
 The easiest way to develop on our Photons is to get direct photon access through the web IDE. [(Online Tutorial)](online_tutorial.md)
