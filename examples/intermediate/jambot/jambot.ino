@@ -21,7 +21,10 @@ int head_pin = A4;
 // All-seeing eyes
 int trigger = D2;
 int echo = D3;
-HC_SR04 rangefinder = HC_SR04(trigger, echo, 3.0, 300.0);
+HC_SR04 rangefinder = HC_SR04(trigger, echo);
+
+//thresh
+double thresh = 3.0;
 
 // Do a little setup on start
 void setup() {
@@ -38,51 +41,59 @@ void loop() {
 void move() {
     // Check yo left
     head.write(150);
-    double leftDist = getDist();
-    delay(200);
-    
-    // Check yo front-side
-    head.write(90);
-    double middleDist = getDist();
-    delay(200);
+    delay(300);
+    double L = getDist();
     
     // Check yo right
     head.write(30);
-    double rightDist = getDist();
-    delay(200);
-    
-    // Look forward when you're walkin'
+    delay(600);
+    double R = getDist();
+
+    // Check yo front-side
     head.write(90);
-    
-    // Turn away from left obstacle
-    if (leftDist < 5) {
+    delay(300);
+    double F = getDist();
+
+    if (F > 15.0 || (L + thresh < F && R + thresh < F)) {
         digitalWrite(leftMotor, HIGH);
-    
-    // Turn away from right obstacle
-    } else if (rightDist < 5) {
         digitalWrite(rightMotor, HIGH);
-    
-    // Looks pretty good...
-    /// If distance is out of range, it's probably far (> 300) instead of near (< 3).
-    } else if (middleDist > 5 || middleDist == -1) {
+        delay(2000);
+    } else if (L > F + thresh) {
         digitalWrite(leftMotor, HIGH);
+        delay(500);
+
+    } else {
+        digitalWrite(rightMotor, HIGH);
+        delay(500);
+    }
+
+    digitalWrite(leftMotor, LOW);
+    digitalWrite(rightMotor, LOW);
+}
+
+void move_simple() {
+    // Check yo front-side
+    head.write(90);
+    delay(200);
+    double middleDist = getDist();
+
+    if (middleDist > 15) {
         digitalWrite(leftMotor, HIGH);
-    
-    // Looks like we should turn, I guess. I don't know, I'm a robot
-    } else if (leftDist < rightDist) {
-        digitalWrite(leftMotor, HIGH);
+        digitalWrite(rightMotor, HIGH);
     
     } else {
         digitalWrite(rightMotor, HIGH);
     }
 
-    // Move for 2 seconds
-    delay(2000);
+    // Move for 1.5 seconds
+    delay(1500);
+    digitalWrite(leftMotor, LOW);
+    digitalWrite(rightMotor, LOW);
 }
 
 double getDist() {
     // TODO: Maybe do an average of multiple readings to reduce noise.
-    return rangefinder.getDistanceInch();
+    return rangefinder.getDistanceCM();
 }
 
 /*
