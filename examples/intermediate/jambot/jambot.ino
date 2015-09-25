@@ -1,5 +1,7 @@
 // This #include statement was automatically added by the Particle IDE.
-#include "HC_SR04/HC_SR04.h"
+#include "HC_SR04.h"
+
+SYSTEM_MODE(SEMI_AUTOMATIC);
 
 /*
    I AM JAMBOT.
