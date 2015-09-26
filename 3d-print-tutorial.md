@@ -12,7 +12,7 @@ A few tips to keep in mind when your designing your 3D object:
 - __Edges__ - Every edge on your object should have a minimum of two planes touching it in order for the printer to properly print the edge
 - __Divide and Conquer__ - Design your object in small pieces, and break down components to simple geometric shapes before building upon them
 
-Once you have finished creating your 3D Object export it into a .stl file and save it. You're now ready to start printing!
+Once you have finished creating your 3D Object export it into a .stl file and save it. You're almost ready to start printing!
 
 ## Printing your 3D object
 
